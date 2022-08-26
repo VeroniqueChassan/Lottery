@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS LOTO</title>
+</head>
+<body>
+    <h1>PLAY THE LOTTERY !</h1>
+
+    <h2>Choose your numbers between 0 and 50.</h2>
+
+    <div class="grid">
+        <form>
+            <input type="number" class="number" id="number1"  min="0" max="50" required>
+            <input type="number" class="number" id="number2"  min="0" max="50" required>
+            <input type="number" class="number" id="number3"  min="0" max="50" required>
+            <input type="number" class="number" id="number4"  min="0" max="50" required>
+            <input type="number" class="number" id="number5"  min="0" max="50" required>
+        </form>
+    </div>
+
+    <!-- <p id="numberValid"></p> -->
+
+    <div>
+        <button id="btnValidate">validate your numbers</button>
+        <button id="randomLotteryNumbers">Draw the random numbers</button>
+    </div>
+
+    <section>
+        <h3 id="numberChosen">Your chosen numbers are: </h3>
+        <h3 id="numberRandom">The lottery numbers are: </h3>
+        <h3 id="message">Did you win or loose? </h3>
+        <h3 id="score">How many right numbers did you get? </h3>
+    </section>
+
+    <script src="index.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body {
+    background-image: url(images/lotto.jpg) ;
+    height: 100vh;
+}
+h1 {
+    font-size: 4rem;
+    color: rgb(140, 23, 23);
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+
+h3 {
+     font-size: 1.2rem;
+    color: black;
+    justify-content: center;
+
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left: 20rem;
+    padding: 2rem;
+    margin-right: 20rem;
+    background-color: goldenrod;
+    border-radius: 2rem;
+}
+.grid{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    margin: 1rem;
+}
+
+#btnValidate{
+    background-color: goldenrod;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+
+#randomLotteryNumbers {
+    background-color: goldenrod;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+
+}
